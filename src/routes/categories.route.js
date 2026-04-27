@@ -6,6 +6,7 @@ const {
 
 const router = express.Router();
 
+// Route untuk /categories
 router.get('/', getCategories);
 router.get('/:id', getCategoryById);
 router.post('/', authenticate, addCategory);
