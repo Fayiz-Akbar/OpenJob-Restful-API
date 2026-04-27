@@ -7,6 +7,7 @@ const {
 
 const router = express.Router();
 
+// Route untuk /authentications
 router.post('/', login);
 router.put('/', putAuthentication);
 router.delete('/', deleteAuthentication);
