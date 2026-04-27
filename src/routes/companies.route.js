@@ -15,4 +15,5 @@ router.post('/', authenticate, addCompany);
 router.put('/:id', authenticate, updateCompanyById);
 router.delete('/:id', authenticate, deleteCompanyById);
 
+// Sisa route company yang menempel di job (contoh: /jobs/:jobId/company)
 module.exports = router;
