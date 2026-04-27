@@ -4,6 +4,7 @@ const {
   addBookmark, getBookmarks, getBookmarkById, deleteBookmark
 } = require('../controllers/bookmark.controller');
 
+// Kita buat router khusus untuk bookmarks
 const router = express.Router();
 
 // Route untuk /bookmarks (GET All)
